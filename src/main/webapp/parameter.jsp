@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <meta http-eqip="refresh" content="1">
     </head>
     <%
         String color="blue";
@@ -20,7 +21,7 @@
         if(parameter!=null){
             color=parameter;
         }else{
-            color=colors[(int)Math.random()*1000%6];
+            color=colors[(int)(Math.random()*1000%colors.length)];
         }
     %>
     <body bgcolor="<%=color%>">
