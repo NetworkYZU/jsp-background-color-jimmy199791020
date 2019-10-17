@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <meta http-eqip="refresh" content="1">
+        <meta http-equiv="refresh" content="1">
     </head>
     <%
         String color="blue";
